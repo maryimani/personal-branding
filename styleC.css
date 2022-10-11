@@ -1,0 +1,80 @@
+body{
+    background-image: url(./images/My\ project-1\ \(6\).png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form{
+    padding: 20px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: ;
+    position: fixed;
+    padding: 1px;
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: flex-end;
+    text-decoration: none;
+}
+li{
+    background-color: #fe8104;
+    padding: 5px;
+    width: 65vh;
+
+}
+a:link {
+    text-decoration: none;
+}
+li a:hover{
+    font-size: larger;
+}
+h2{
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+.social-media{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+footer{
+    padding: 10px;
+}
+.services {
+    margin-left: 48px;
+    margin-bottom: 10px;
+    justify-content:center;
+    margin-right: 200px;
+}
+.location{
+    margin-left: 48px;
+    margin-bottom: 10px;
+    text-align: justify;
+    justify-content:center;
+}
+.sectf{
+    display:flex;
+    grid direction: row;
+    align-items: center;   
+}
+.submit{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40%; 
+    margin-right:40% ;  
+    background-color: #fe8104;
+    border: solid blue;
+    padding: 15px;  
+    border-radius: 25px;
+
+}
+.submit:hover{
+    background-color: rgba(240, 248, 255, 0.085);
+}
