@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff5b00;
+}
+.flex-container{
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+.images img {
+    width: 1000px;
+    height:500px;
+    transition: all 0.15s ease;
+}
+
+.images input{
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    width: 20px;
+    height: 20px;
+    border-radius:50% ;
+    border: solid #ffffff 3px ;
+    cursor: pointer;
+    transition: all 0.5 ease ;
+    margin: 5px;
+}
+.dots label:hover {
+    background-color: #000000;
+}
+#Mango:checked~ .m1{
+    margin-left: 0;
+}
+#Passion :checked~ .m2{
+    margin-left:-100%;
+}
+#Milkshake:checked~ .m3{
+    margin-left:-200%;
+}
+#Pineapple:checked~ .m4{
+    margin-left:-300%;
+}
+#Beetroot:checked~ .m5{
+    margin-left:-400%;
+}
+ul {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    padding: 10px;
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
+    
+
+}
+
+li{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: end; */
+    /* padding: 10px; */
+    /* margin-left: 10px; */
+    background-color: #fe8104;
+    padding: 10px;
+    
+
+}
+a:link {
+    text-decoration: none;
+}
+li a:hover{
+    font-size: larger;
+}

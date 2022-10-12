@@ -1,0 +1,22 @@
+{
+  "name": "personal-branding",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryimani/personal-branding.git"
+  },
+  "author": "Mary Faith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryimani/personal-branding/issues"
+  },
+  "homepage": "https://github.com/maryimani/personal-branding#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
